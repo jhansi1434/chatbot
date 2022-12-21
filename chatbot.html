@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <script src="chatbot.js"></script>
+    <link rel="stylesheet" href="/css/chat.css">
+</head>
+
+
+<body >
+    
+
+    <div class="box " id="mainDiv">
+        <div class="msg-header">
+            <div class="imag">
+                <img src="/ira.png">
+            </div>
+            <div class="activ">
+                <h5>Anonymous</h5>
+                <div id="timeing"></div>
+            </div>
+            <div id="miniDiv"  style="overflow-y:scroll; 
+            width:400px;height:300px;border:none;"></div>
+        </div>
+        <div class="area">
+            <textarea id="txt_area"  class="area-text" cols="51" rows="3"></textarea>
+                <button  class="send"type="button" onclick="Receive()">send</button>
+           
+        </div>
+    </div>
+</body>
+
+</html>
